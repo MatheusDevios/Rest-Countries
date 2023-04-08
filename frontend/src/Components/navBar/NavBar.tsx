@@ -25,7 +25,7 @@ const NavBar: React.FC<Props> = (props) => {
       <div className="w-navbar">
         <div className="navbar-title">
           <PublicIcon />
-          <h1>Rest Countries - Bounce Insights</h1>
+          <h1>Rest Countries - Matheus Diniz</h1>
         </div>
         <div className="navbar-search">
           <SearchIcon onClick={handleSearch} />
