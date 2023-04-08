@@ -1,5 +1,9 @@
 # How to set up
 
+**Note: this application shows 8 example countries at the home page and a search bar, to search for a country, type the name of the country in the search bar and `click enter` or at the `search icon` at the left of the bar.**
+
+**Open [https://restcountries-matheusdiniz.netlify.app/home](https://restcountries-matheusdiniz.netlify.app/home) to view it live.**
+
 ## Available Scripts for the frontend
 
 In the project directory, you can run:
@@ -34,5 +38,3 @@ To instal the dependencies and following run
 ### `nodemon`
 
 nodemon will run your express server on the port 5001
-
-**Note: this application shows 8 example countries at the home page and a search bar, to search for a country, type the name of the country in the search bar and `click enter` or at the `search icon` at the left of the bar.**
