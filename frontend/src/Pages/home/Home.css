@@ -1,0 +1,35 @@
+.c-country {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.w-country {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .w-country {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .c-country {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .w-country {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w-country {
+    grid-template-columns: 1fr;
+  }
+}

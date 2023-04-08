@@ -1,0 +1,49 @@
+.c-examples {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-examples {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: 0 3px 24px rgb(0 0 0 / 4%);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #f0f2f3;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.w-examples:hover {
+  transform: scale(1);
+}
+
+.examples-flag {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.examples-info {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.examples-info span {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px 0;
+}

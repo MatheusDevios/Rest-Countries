@@ -1,0 +1,44 @@
+.info-wrapper-error {
+  width: auto;
+  padding: 20px 0;
+}
+
+.title-modal-error {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #000;
+  text-align: center;
+}
+
+.header-text-modal-error {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+}
+.text-modal-error {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .info-wrapper-error {
+    margin-top: 3rem;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+}
+
+@media screen and (max-width: 600px) {
+  .text-modal-error {
+    padding: 0 10px;
+  }
+}
